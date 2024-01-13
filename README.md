@@ -1,7 +1,5 @@
-# Bike-Share-Analysis-using-Python
-Python analysis of bike share data for Chicago, NYC, and Washington. Discover popular times, stations, trip durations, and user demographics. Interactive terminal experience for insights into usage patterns in the first half of 2017.
 
-# BikeShare Analysis
+# BikeShare Analysis with a Python script
 
 ## Overview
 This project involves exploring bike share systems' data for three major cities in the United States—Chicago, New York City, and Washington. Utilizing Python, the code imports data, computes descriptive statistics and creates an interactive terminal experience for users to explore the bike share usage patterns.
