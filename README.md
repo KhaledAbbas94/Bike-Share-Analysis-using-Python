@@ -1,30 +1,53 @@
-
-# BikeShare Analysis with a Python script
+# Bike Share Data Analysis
 
 ## Overview
-This project involves exploring bike share systems' data for three major cities in the United States—Chicago, New York City, and Washington. Utilizing Python, the code imports data, computes descriptive statistics and creates an interactive terminal experience for users to explore the bike share usage patterns.
 
-## Project Details
-### Bike Share Data
-Bicycle-sharing systems have become popular, and this project analyzes data provided by Motivate, a bike-share system provider, for Chicago, New York City, and Washington. The dataset includes start time, end time, trip duration, start station, end station, user type, gender, and birth year.
+Over the past decade, bicycle-sharing systems have gained popularity worldwide, providing users with the flexibility to rent bikes for short-term use. These systems generate valuable data, offering insights into bike share usage patterns. This project utilizes data from "Motivate," a bike share system provider for major U.S. cities, to explore and compare bike share usage in Chicago, New York City, and Washington, DC.
 
-### Datasets
-Randomly selected data for the first six months of 2017 is provided for all three cities. The data files contain core columns, with additional columns in Chicago and New York City files.
+## Datasets
 
-### Statistics Computed
-The Python script computes various descriptive statistics, including popular travel times, popular stations and trips, trip duration, and user information.
+Randomly selected data for the first six months of 2017 is provided for all three cities. The datasets include the following core columns:
 
-## Files
-- [`bikeshare.py`](https://github.com/KhaledAbbas94/Bike-Share-Analysis-using-Python/blob/main/bikeshare.py): Python script for analysis (template provided)
-- `chicago.csv`: Data for Chicago
-- `new_york_city.csv`: Data for New York City
-- `washington.csv`: Data for Washington
+- Start Time
+- End Time
+- Trip Duration (in seconds)
+- Start Station
+- End Station
+- User Type
 
-## Instructions
-1. Clone the repository.
-2. Run the `bikeshare.py` script to explore bike share statistics.
-3. Customize the script for further analysis or improvements.
+Additional columns, such as Gender and Birth Year, are available for Chicago and New York City. The original, larger datasets have been streamlined for ease of analysis and evaluation of Python skills.
 
-## How to Run
-```bash
-python bikeshare.py
+## Statistics Computed
+
+The Python script in this project computes various descriptive statistics to provide insights into bike share usage:
+
+### Popular Times of Travel
+
+- Most common month
+- Most common day of the week
+- Most common hour of the day
+
+### Popular Stations and Trips
+
+- Most common start station
+- Most common end station
+- Most common trip from start to end (frequent combination of start and end station)
+
+### Trip Duration
+
+- Total travel time
+- Average travel time
+
+### User Info
+
+- Counts of each user type
+- Counts of each gender (available for NYC and Chicago)
+- Earliest, most recent, and most common year of birth (available for NYC and Chicago)
+
+## Project Success
+
+This project is an important milestone in my self-learning journey, showcasing successful data analysis and Python programming skills.
+
+Explore the bike share data and feel free to contribute or provide feedback. If you have any questions or suggestions, please reach out!
+
+
