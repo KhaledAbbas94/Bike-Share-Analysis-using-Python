@@ -15,7 +15,7 @@ Randomly selected data for the first six months of 2017 is provided for all thre
 The Python script computes various descriptive statistics, including popular travel times, popular stations and trips, trip duration, and user information.
 
 ## Files
-- `bikeshare.py`: Python script for analysis (template provided)
+- `[bikeshare.py](https://github.com/KhaledAbbas94/Bike-Share-Analysis-using-Python/blob/main/bikeshare.py)`: Python script for analysis (template provided)
 - `chicago.csv`: Data for Chicago
 - `new_york_city.csv`: Data for New York City
 - `washington.csv`: Data for Washington
